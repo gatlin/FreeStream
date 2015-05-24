@@ -7,7 +7,8 @@ free monad.</p></div><div id="content"><div id="description"><h1>freestream-0.3.
 free monad.</h1><div class="doc"><p>This package provides the <code>Task</code> monad transformer, allowing any monad
 computation to become a stream processing pipeline. A computation of type
 <code>Task</code> <code>a b m r</code> consumes values of type <code>a</code> and produces values of type
-<code>b</code>.</p><p>An example (in ghci):</p><pre class="screen"><code class="prompt">&gt;&gt;&gt; </code><strong class="userinput"><code>run $ for (each [1..10]) $ lift . putStrLn . show
+<code>b</code>. Any <code>Foldable</code> type may be used as an argument to functions like
+<code>each</code> and <code>every</code>.</p><p>An example (in ghci):</p><pre class="screen"><code class="prompt">&gt;&gt;&gt; </code><strong class="userinput"><code>run $ for (each [1..10]) $ lift . putStrLn . show
 </code></strong></pre><p>This example will print the numbers 1 through 10 on a separate line.</p><pre class="screen"><code class="prompt">&gt;&gt;&gt; </code><strong class="userinput"><code>reduce (*) 1 id $ each [1..10]
 </code></strong></pre><p>This produces 3628800, quickly. See the <code>FreeStream</code> module documentation
 for information on each type and function.</p><p>To use this library you need only to import <code>FreeStream</code>. The other
