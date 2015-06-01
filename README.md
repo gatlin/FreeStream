@@ -1,7 +1,7 @@
 Tubes
 ==========
 
-**I HAVE RENAMED THIS PACKAGE.** It is now called [tubes](https://github.com/gatlin/tubes)
+**I HAVE RENAMED THIS PACKAGE.** It is now called [tubes and its repository may be found here.](https://github.com/gatlin/tubes)
 and it will be receiving active updates. **This repository is now obsolete.**
 
 [Iteratee][iteratees]-based streaming library from a free monad. This exists
