@@ -1,6 +1,9 @@
 Tubes
 ==========
 
+**I HAVE RENAMED THIS PACKAGE.** It is now called [tubes](https://github.com/gatlin/tubes)
+and it will be receiving active updates. **This repository is now obsolete.**
+
 [Iteratee][iteratees]-based streaming library from a free monad. This exists
 solely for my own understanding of functions, pairs, and the interesting things
 you can derive automatically by combining the two.
@@ -11,9 +14,6 @@ Haddock documentation is available at
 [http://niltag.net/FreeStream](http://niltag.net/FreeStream).
 
 (c) 2014, 2015 Gatlin Johnson <gatlin@niltag.net>
-
-**I JUST CHANGED THE NAME OF THIS PACKAGE. EVERYTHING BUILDS but the
-documentation and such might not be completely changed**
 
 Synopsis
 ---
